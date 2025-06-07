@@ -1,0 +1,50 @@
+.titulo{
+    color: rgb(242, 249, 240);
+    font-size: 40px;
+    font-family: Verdana;
+}
+.tarefa-vazia{
+    text-align: center;
+}
+
+.principal{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(46, 50, 54);
+    border: 1px solid rgb(115, 125, 131);
+    border-radius: 15px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.campo-input{
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: rgb(55, 60, 62);
+    border: 1px solid rgb(115, 125, 131);
+}
+
+.bt-adicionar{
+    background-color: rgb(4, 69, 143);
+    cursor: pointer;
+}
+
+.lista-de-tarefas{
+    list-style: none;
+    padding: 0;
+}
+
+.item-tarefa{
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
